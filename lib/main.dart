@@ -1,7 +1,8 @@
 import 'package:atridev/application/color_list.dart';
-import 'package:atridev/presentation/pages/admin/AdminPage.dart';
+import 'package:atridev/presentation/pages/admin/admin_page.dart';
 import 'package:atridev/presentation/pages/home/homeScreen.dart';
-import 'package:atridev/presentation/widgets/LayoutApp.dart';
+import 'package:atridev/presentation/widgets/layout_app.dart';
+import 'package:atridev/presentation/widgets/TextApp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,7 +31,27 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutApp(
-      primary: HomeScreen(),
+      primary: Scaffold(
+        body: Container(
+          child: Column(
+            children: [
+              TextApp(
+                "Title Main",
+                type: TypeText.titleMain,
+              ),
+              TextApp(
+                "Title",
+                type: TypeText.title,
+              ),
+              TextApp(
+                "Content",
+                type: TypeText.content,
+              ),
+              TextApp("Default")
+            ],
+          ),
+        ),
+      ), //HomeScreen(),
       isRight: true,
       right: AdminPage(),
     );

@@ -1,5 +1,5 @@
 import 'package:atridev/application/color_list.dart';
-import 'package:atridev/presentation/widgets/ImageApp.dart';
+import 'package:atridev/presentation/widgets/image_app.dart';
 import 'package:flutter/material.dart';
 
 class HeaderComponent extends StatelessWidget {

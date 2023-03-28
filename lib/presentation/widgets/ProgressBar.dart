@@ -1,4 +1,4 @@
-import 'package:atridev/presentation/widgets/ImageApp.dart';
+import 'package:atridev/presentation/widgets/image_app.dart';
 import 'package:flutter/material.dart';
 
 class ProgressBar extends StatelessWidget {
