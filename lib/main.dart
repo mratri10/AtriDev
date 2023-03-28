@@ -1,6 +1,6 @@
 import 'package:atridev/application/color_list.dart';
 import 'package:atridev/presentation/pages/admin/admin_page.dart';
-import 'package:atridev/presentation/pages/home/homeScreen.dart';
+import 'package:atridev/presentation/pages/home/home_screen.dart';
 import 'package:atridev/presentation/widgets/layout_app.dart';
 import 'package:atridev/presentation/widgets/TextApp.dart';
 import 'package:flutter/material.dart';

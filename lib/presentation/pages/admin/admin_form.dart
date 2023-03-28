@@ -1,6 +1,6 @@
 import 'package:atridev/application/color_list.dart';
 import 'package:atridev/data/models/dialog_Item.dart';
-import 'package:atridev/data/models/radioItem.dart';
+import 'package:atridev/data/models/radio_Item.dart';
 import 'package:atridev/presentation/widgets/InputApp/bottom_list_select.dart';
 import 'package:atridev/presentation/widgets/InputApp/date_input_app.dart';
 import 'package:atridev/presentation/widgets/InputApp/radio_app.dart';

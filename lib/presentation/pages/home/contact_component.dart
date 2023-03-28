@@ -8,11 +8,11 @@ class ContactComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
           color: Colors.white, borderRadius: BorderRadius.circular(10)),
       child: Column(
-        children: [
+        children: const [
           RowIconText(icon: Icons.person, value: "Atri Ariska Alfa"),
           RowIconText(icon: Icons.person, value: "Atri Ariska Alfa"),
           RowIconText(icon: Icons.person, value: "Atri Ariska Alfa"),

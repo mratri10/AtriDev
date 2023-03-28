@@ -1,4 +1,4 @@
-import 'package:atridev/data/models/radioItem.dart';
+import 'package:atridev/data/models/radio_Item.dart';
 import 'package:atridev/presentation/widgets/TextApp.dart';
 import 'package:flutter/material.dart';
 
